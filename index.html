@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Byo.do</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+    <style>
+      .container {
+        display: flex;
+      }
+      .item {
+        flex: 1;
+      }
+      .color-red {
+        color: #ff2c2d;
+      }
+      .color-blue {
+        color: #1b91ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <a href="https://revealjs.com">
+            <img
+              src="./images/byodo.jpg"
+              alt="reveal.js logo"
+              style="
+                height: 180px;
+                margin: 0 auto 4rem auto;
+                background: transparent;
+              "
+              class="demo-logo"
+            />
+          </a>
+          <h4>
+            Royalty based collaboration platform<br />
+            for creators
+          </h4>
+          <p>
+            <small
+              >Created by <a href="http://hakim.se">Maya Kanehara</a> and
+              <a href="https://github.com/hakimel/reveal.js/graphs/contributors"
+                >Yuichi Oneda</a
+              ></small
+            >
+          </p>
+        </section>
+        <section>
+          <h2>Team</h2>
+          <div class="container">
+            <div class="item">
+              <img alt="MayaK" src="./images/maya.png" style="width: 200px" />
+              <div>CEO <br />MayaK<br /></div>
+              <div style="font-size: large">15yrs in Silicon Valley</div>
+              <div><img alt="career" src="./images/maya-2.png" style="height: 150px" /></div>
+            </div>
+            <div class="item">
+              <img alt="Yuichi" src="./images/yuichi.jpg" style="width: 200px" />
+              <div>CTO <br />Yuichi Oneda</div>
+              <div style="font-size: large">
+                After 7 years as a systems engineer in college, participated in
+                multiple startup project launches. In 2009, joined Fujisan
+                Magazine Service USA as Tech Lead developing B-to-B applications
+                and backend APIs for publishers.
+              </div>
+            </div>
+            <div class="item">
+              <img alt="Kamiya" src="./images/satoshi.jpg" style="width: 200px" />
+              <div>Advisor <br />Antonio Kamiya</div>
+              <div style="font-size: large">
+                Born in Hong Kong, raised in Japan, educated in the US. Founded
+                software localization company while at UC Berkeley, which was
+                acquired by an IT service firm. Founding member and COO /
+                President of Fujisan Magazine Service.
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h3>Our Mission</h3>
+          <p>
+            Byodo is committed to
+            <span class="fragment highlight-blue"
+              >empowering creators and publishers.</span
+            >
+
+            by providing the tools to automatically distribute royalties based
+            on contribution. We invest and focus on technologies and services to
+            <span class="fragment highlight-blue"
+              >maximize creator value and revenue</span
+            >
+          </p>
+        </section>
+        <section>
+          <h3>Problems</h3>
+          <p class="fragment">
+            Social media and blogs have been created by individuals, but they
+            are now evolving to a more professional quality, with blogs becoming
+            articles, video postings becoming movies, and photo postings
+            becoming sophisticated advertisements
+          </p>
+          <p class="fragment">
+            Accordingly, the creation of content has become a team effort with a
+            division of work, and a fair sharing of compensation for these
+            creators is necessary
+          </p>
+          <p class="fragment">
+            However, there is no product that meets those demands
+          </p>
+        </section>
+        <section>
+          <h3>Market Size</h3>
+          <div>
+            <div class="r-stack">
+              <img
+                class="fragment fade-out"
+                data-fragment-index="1"
+                src="./images/book-gr.png"
+                height="350"
+              />
+
+              <img
+                class="fragment fade-in-then-out"
+                data-fragment-index="2"
+                src="./images/blog-gr.png"
+                width="300"
+                alt="https://firstsiteguide.com/blogging-stats/"
+              />
+
+              <img
+                class="fragment fade-in-then-out"
+                data-fragment-index="3"
+                src="./images/podcast-gr.png"
+                height="300"
+                alt="https://www.rumble.studio/blog/the-growth-of-the-podcast-industry"
+              />
+
+              <img
+                class="fragment fade-in-then-out"
+                data-fragment-index="4"
+                src="./images/insta-gr.png"
+                height="350"
+                alt="https://www.statista.com/statistics/253577/number-of-monthly-active-instagram-users/"
+              />
+
+              <img
+                class="fragment fade-in-then-out"
+                data-fragment-index="5"
+                src="./images/youtube-gr.png"
+                height="350"
+                alt=""
+              />
+              <p class="fragment" data-fragment-index="6">
+                This means that online content will require the same
+                quality of content as publications in the future.
+              </p>
+            </div>
+            <p
+              class="freagment"
+              data-fragment-index="1"
+              style="font-size: 0.8em"
+            >
+              The growth rate of publications is declining, But
+              <span class="fragment" data-fragment-index="2"
+                >The number of <span class="color-blue">blogs</span> has
+                increased each year, </span
+              ><span class="fragment" data-fragment-index="3"
+                >The number of <span class="color-blue">podcasts</span> has
+                increased each year, </span
+              ><span class="fragment" data-fragment-index="4"
+                >The number of
+                <span class="color-blue">picture contents</span> has increased
+                each year, </span
+              ><span class="fragment" data-fragment-index="5"
+                >The number of <span class="color-blue">video contents</span> has
+                increased each year.</span
+              >
+            </p>
+          </div>
+        </section>
+        <section>
+          <p>
+            <p class="fragment grow highlight-blue">Teamwork</p> and
+            <p class="fragment grow highlight-blue">A fair royalty system</p> are
+            necessary
+          </p>
+        </section>
+        <section>
+          <h3>Creator's Problems</h3>
+          <p class="fragment">
+            Creators do not get paid as much as they should be due to
+            <span class="fragment highlight-red">
+              cost of managing royalties</span
+            >.
+          </p>
+          <p class="fragment">
+            Big companies retain majority of revenue and
+            <span class="fragment highlight-red">ownerships of contents</span>.
+          </p>
+          <p class="fragment">
+            <span class="fragment highlight-red">No collaborative tools</span>
+            is to manage the entire process of fundraising, recruiting teams,
+            and distributing royalties exist
+          </p>
+          <p class="fragment">
+            <span class="fragment highlight-red"
+              >Sharing ownerships of content</span
+            >
+            is very difficult.
+          </p>
+        </section>
+        <section class="" r-fit-text>
+          <h3>Solution</h3>
+          <p>We provide the tools to solve them all</p>
+        </section>
+        <section>
+          <h3>For creators</h3>
+          <p class="fragment">
+            They can manage everything from content planning, team organization,
+            content creation, sales and distribution, and royalty management in
+            one place.
+          </p>
+          <p class="fragment">They can also find sponsors for their plans.</p>
+          <p class="fragment">
+            Receiving royalties and renewing contracts are all managed on the
+            blockchain using Token to make it fair and easy.
+          </p>
+        </section>
+        <section>
+          <h3>Plus,</h3>
+          <p class="" fragment>They can use the tool for <span class="color-blue" style="font-size: 1.5em">free</span>.</p>
+          <p class="fragment">
+            They pay a fee only if a transaction occurs for the content they
+            create.
+          </p>
+          <p class="fragment">
+            To maximize effectiveness depending on the situation, several
+            payment options will be offered.
+          </p>
+        </section>
+        <section>
+          <h3>For publishers</h3>
+          <p class="fragment">
+            This tool will make it easier to pay creators and manage royalties,
+            which used to be complicated.
+          </p>
+          <p class="fragment">
+            They can even find a team that will create the content they want and
+            track the progress of the content they have requested.
+          </p>
+          <p class="fragment">They can use this royalty system for both print and digital.</p>
+        </section>
+        <section>
+          <h3>Product Feature Comparison</h3>
+          <img src="./images/Product Feature.png" />
+        </section>
+        <section class="r-fit-text">
+          <h3>Business Model</h3>
+          <p>Byodo makes revenue when creators gain royalties</p>
+          <ul>
+            <li>Revenue Model for Creators and Investors of contents</li>
+            <ul>
+              <li>Sales of content</li>
+              <li>Distribution of content</li>
+              <li>Secondary sales of content</li>
+              <li>Sales of ownership share</li>
+            </ul>
+            <li>Revenue Model for Byodo</li>
+            <ul>
+              <li>Subscription</li>
+              <li>2% of Creator's revenue</li>
+            </ul>
+          </ul>
+        </section>
+        <section>
+          <h3>Product RoadMap</h3>
+          <p>
+            Our first priority is to release collaboration tools. Then we will
+            implement a matching feature for creators to create content,
+            followed by a content browsing platform.
+          </p>
+          <img src="./images/Roadmap.png" />
+        </section>
+
+
+        <section>
+          <h3>Go-to-market Strategy</h3>
+
+            <ul>
+              <li>
+                Connect with influencers/online magazine publishers to introduce
+                Byodo by providing incentives to write
+              </li>
+              <li>
+                Attend physical writer's events to connect with writers
+                communities by sponsor and actively participate in
+              </li>
+              <li>
+                Let Byodo's investors and their communities use the platform
+              </li>
+            </ul>
+
+
+        </section>
+        <section><h3>Growth Forecast</h3>
+          <img src="./images/growth-projection.png" width="600"/>
+          </section>
+
+        <section><h3>Financial Forecast</h3>
+          <img src="images/plf.png" width="300" />
+          <br/>
+          <img src="images/cf.png" width="300" />
+        </section>
+        <section>
+          <h3>Why Byodo?</h3>
+          <ul>
+            <li>
+              Patent pending method of using blockchains effectively to manage
+              royalty payment contracts
+            </li>
+            <li>
+              Relationship with existing publishers who will benefit greatly
+              from our product by reducing cost of royalty management
+            </li>
+            <li>Ability to scale to asian markets rapidly</li>
+            <li>
+              Byodo is the first mover to build creators ecosystem distributing
+              royalties and being able to collaborate
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
